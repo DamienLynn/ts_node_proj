@@ -1,0 +1,12 @@
+{
+    "type": "mongodb",
+    "database": "ts_node",
+    "useNewUrlParser": true,
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+        "dist/database/entity/*.js"
+    ],
+    "migrations": [],
+    "subscribers": []
+}

@@ -1,0 +1,18 @@
+{
+    "apps": [{
+        "name": "ts_node_proj",
+        "script": "./dist/index.js",
+        "watch": true,
+        "ignore_watch": ["./src/storage", "./src/public"],
+        "watch_options": {
+            "followSymlinks": false
+        },
+        "log_date_format": "YYYY-MM-DD HH:mm:ss",
+        "env_production": {
+            "NODE_ENV": "production"
+         },
+         "env_local": {
+            "NODE_ENV": "local"
+         }
+    }]
+}
